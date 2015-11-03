@@ -1,7 +1,6 @@
 package data;
 
 import java.awt.Font;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.io.InputStream;
@@ -22,6 +21,7 @@ import org.newdawn.slick.util.ResourceLoader;
 public class Writer {
 	private static TrueTypeFont font2;
 	public static String message, line1 ="",line2="", moreStory;
+	public static String[] test;
 	public static List<String> story = new ArrayList<String>(); List<String> arrayLine1 = new LinkedList<String>(); List<String> arrayLine2 = new LinkedList<String>();
 	//private static ArrayList<String> story = new ArrayList<String>();ArrayList<String> arrayLine1 = new ArrayList<String>() ; ArrayList<String> arrayLine2 = new ArrayList<String>() ;
 	public int messageLen;
@@ -32,8 +32,6 @@ public class Writer {
 	}
 		
 	public void init() {
-		//story.add("There once was a man from Nantucket");
-		//story.add("And the man cooked an ostrich egg that tasted like gouda cheese");
 		moreStory = "I am currently reading a book called 'The Life of Pi'.  It is a very interesting novel about religion, self, and spending a lot of time in a boat with a tiger called Richard parker."; 
 		assignMessageQueue(moreStory);
 		message = story.get(0);
@@ -71,7 +69,7 @@ public class Writer {
 	
 	private void getMessageLines() {
 		if(message.length() < 30) {
-			arrayLine1 = new LinkedList<String>(Arrays.asList((message.substring(0, message.length()).split(" "))));
+			arrayLine1 = new LinkedList<String>(message.substring(0, message.length()).split(" "));
 			 line2 = "";
 		} else if(message.length() < 60) {
 			lastSpacePosition = 30;
