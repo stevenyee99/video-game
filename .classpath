@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Steven/Desktop/workspace/lib/jars/slick-util.jar" sourcepath="C:/Users/Steven/Desktop/workspace/lib/jars">
+	<classpathentry exported="true" kind="lib" path="C:/Users/Steven/Desktop/workspace/lib/jars/slick-util.jar" sourcepath="C:/Users/Steven/Desktop/workspace/lib/jars">
 		<attributes>
-			<attribute name="javadoc_location" value="file://C:/Users/Steven/Desktop/workspace/lib/jars"/>
+			<attribute name="javadoc_location" value="file:///C:/Users/Steven/Desktop/workspace/lib/jars"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Steven/Desktop/workspace/lib/jars/lwjgl.jar">
+	<classpathentry exported="true" kind="lib" path="C:/Users/Steven/Desktop/workspace/lib/jars/lwjgl.jar">
 		<attributes>
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Steven/Desktop/workspace/lib/natives"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Steven/Desktop/workspace/lib/jars/lwjgl_util.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Steven/Desktop/workspace/lib/jars/lwjgl_util.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_65"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
