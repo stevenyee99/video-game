@@ -4,7 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="lib" path="C:/Users/Steven/Desktop/workspace/lib/jars/slick-util.jar" sourcepath="C:/Users/Steven/Desktop/workspace/lib/jars">
 		<attributes>
-			<attribute name="javadoc_location" value="file:/C:/Users/Steven/Desktop/workspace/lib/jars/"/>
+			<attribute name="javadoc_location" value="file://C:/Users/Steven/Desktop/workspace/lib/jars"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Steven/Desktop/workspace/lib/jars/lwjgl.jar">
